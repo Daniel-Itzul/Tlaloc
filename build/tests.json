@@ -1,0 +1,52 @@
+{
+  "contracts": {
+    "APIConsumer": "0b8a110335ca6dea2fb785a52f9c6b3b70b2cc64",
+    "LinkToken": "49e7bae2df618e81d877632c6ad55872ff2ce801",
+    "MockOracle": "7f09d8b642ed1af8d9a3e094ab619f25db4db23c",
+    "MockV3Aggregator": "9e734e161b5cafcca52a917f10266f5a8bc05b28",
+    "Oracle": "2a6329c8a29818387a719177b33d124ee34a6d02",
+    "PriceFeed": "097c6bd07620966d0b130e245bf47a3c430dec7a",
+    "VRFConsumer": "381da532cf629be9dd09a19881491f8ddf045863",
+    "VRFCoordinatorMock": "a234e721cab3c47e532d8404949512e63f344855",
+    "alphachainio/chainlink-contracts@1.1.2/BasicToken": "92084ac5279a2a3db988d9e01d7e6d3e3a4dab8d",
+    "alphachainio/chainlink-contracts@1.1.2/BufferChainlink": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "alphachainio/chainlink-contracts@1.1.2/CBORChainlink": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "alphachainio/chainlink-contracts@1.1.2/Chainlink": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "alphachainio/chainlink-contracts@1.1.2/ChainlinkClient": "750a107dfd09b0702b5ae03a4b6ea3c8b73190e1",
+    "alphachainio/chainlink-contracts@1.1.2/Ownable": "976a22295f1e5c4d2dd90d6cda79c5943f226e2d",
+    "alphachainio/chainlink-contracts@1.1.2/SafeMath": "bf84f5dba942291289c80f271862cb515ce813ab",
+    "alphachainio/chainlink-contracts@1.1.2/StandardToken": "7f21b0e2f1d1fcf89f4466183c9e73bc3cf77276",
+    "alphachainio/chainlink-contracts@1.1.2/VRFRequestIDBase": "73df0a6f5d0123eb2b2db0faf62b602aa77c123a"
+  },
+  "tests": {
+    "tests/test_api_consumer.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "EE",
+      "sha1": "b616e1a9874d87a8c8916add34a196a8a3becc2f",
+      "txhash": []
+    },
+    "tests/test_price_feeds.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "E",
+      "sha1": "117fbe2d6f049556d9117079786e65b77f46b455",
+      "txhash": []
+    },
+    "tests/test_unnecessary/test_over_the_top.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "sss",
+      "sha1": "6d7965cdeb975757bbca6a80ba7a95d54868bacc",
+      "txhash": []
+    },
+    "tests/test_vrf.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "EEE",
+      "sha1": "af93943407d827f2f38cc28ccb97e2f7e9abb1c7",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}

@@ -1,0 +1,10 @@
+.pytest_cache
+__pycache__
+*.testing
+test_unnecessary
+conftest.py
+test_api_consumer.py
+test_price_feeds.py
+test_vrf.py
+sample_contracts
+test_contracts
