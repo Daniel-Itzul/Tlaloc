@@ -15,21 +15,21 @@
     }
   ],
   "allSourcePaths": {
-    "9": "/Users/danielherrera/.brownie/packages/alphachainio/chainlink-contracts@1.1.2/contracts/src/v0.6/interfaces/PointerInterface.sol"
+    "6": "/Users/danielherrera/.brownie/packages/alphachainio/chainlink-contracts@1.1.2/contracts/src/v0.6/interfaces/PointerInterface.sol"
   },
   "ast": {
     "absolutePath": "/Users/danielherrera/.brownie/packages/alphachainio/chainlink-contracts@1.1.2/contracts/src/v0.6/interfaces/PointerInterface.sol",
     "exportedSymbols": {
       "PointerInterface": [
-        1935
+        1189
       ]
     },
-    "id": 1936,
+    "id": 1190,
     "license": null,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1929,
+        "id": 1183,
         "literals": [
           "solidity",
           "^",
@@ -37,7 +37,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:9"
+        "src": "0:23:6"
       },
       {
         "abstract": false,
@@ -46,9 +46,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 1935,
+        "id": 1189,
         "linearizedBaseContracts": [
-          1935
+          1189
         ],
         "name": "PointerInterface",
         "nodeType": "ContractDefinition",
@@ -57,7 +57,7 @@
             "body": null,
             "documentation": null,
             "functionSelector": "38cc4831",
-            "id": 1934,
+            "id": 1188,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -65,24 +65,24 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 1930,
+              "id": 1184,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "75:2:9"
+              "src": "75:2:6"
             },
             "returnParameters": {
-              "id": 1933,
+              "id": 1187,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1932,
+                  "id": 1186,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 1934,
-                  "src": "101:7:9",
+                  "scope": 1188,
+                  "src": "101:7:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -90,10 +90,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1931,
+                    "id": 1185,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "101:7:9",
+                    "src": "101:7:6",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -104,20 +104,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "100:9:9"
+              "src": "100:9:6"
             },
-            "scope": 1935,
-            "src": "56:54:9",
+            "scope": 1189,
+            "src": "56:54:6",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1936,
-        "src": "25:87:9"
+        "scope": 1190,
+        "src": "25:87:6"
       }
     ],
-    "src": "0:113:9"
+    "src": "0:113:6"
   },
   "bytecode": "",
   "bytecodeSha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",

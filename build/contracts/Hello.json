@@ -20,21 +20,21 @@
     }
   ],
   "allSourcePaths": {
-    "0": "contracts/Hello.sol"
+    "12": "contracts/sample_contracts/Hello.sol"
   },
   "ast": {
-    "absolutePath": "contracts/Hello.sol",
+    "absolutePath": "contracts/sample_contracts/Hello.sol",
     "exportedSymbols": {
       "Hello": [
-        12
+        164
       ]
     },
-    "id": 13,
+    "id": 165,
     "license": null,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1,
+        "id": 153,
         "literals": [
           "solidity",
           "^",
@@ -42,7 +42,7 @@
           ".12"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:0"
+        "src": "0:24:12"
       },
       {
         "abstract": false,
@@ -51,9 +51,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 12,
+        "id": 164,
         "linearizedBaseContracts": [
-          12
+          164
         ],
         "name": "Hello",
         "nodeType": "ContractDefinition",
@@ -61,13 +61,13 @@
           {
             "constant": false,
             "functionSelector": "ef690cc0",
-            "id": 3,
+            "id": 155,
             "mutability": "mutable",
             "name": "greeting",
             "nodeType": "VariableDeclaration",
             "overrides": null,
-            "scope": 12,
-            "src": "47:22:0",
+            "scope": 164,
+            "src": "47:22:12",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -75,10 +75,10 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 2,
+              "id": 154,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "47:6:0",
+              "src": "47:6:12",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string"
@@ -89,26 +89,26 @@
           },
           {
             "body": {
-              "id": 10,
+              "id": 162,
               "nodeType": "Block",
-              "src": "96:35:0",
+              "src": "96:35:12",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 8,
+                    "id": 160,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 6,
+                      "id": 158,
                       "name": "greeting",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3,
-                      "src": "106:8:0",
+                      "referencedDeclaration": 155,
+                      "src": "106:8:12",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage",
                         "typeString": "string storage ref"
@@ -119,14 +119,14 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "68656c6c6f",
-                      "id": 7,
+                      "id": 159,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "string",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "117:7:0",
+                      "src": "117:7:12",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_stringliteral_1c8aff950685c2ed4bc3174f3472287b56d9517b9c948127319a09a7a36deac8",
@@ -134,20 +134,20 @@
                       },
                       "value": "hello"
                     },
-                    "src": "106:18:0",
+                    "src": "106:18:12",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "id": 9,
+                  "id": 161,
                   "nodeType": "ExpressionStatement",
-                  "src": "106:18:0"
+                  "src": "106:18:12"
                 }
               ]
             },
             "documentation": null,
-            "id": 11,
+            "id": 163,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -155,31 +155,31 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 4,
+              "id": 156,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "86:2:0"
+              "src": "86:2:12"
             },
             "returnParameters": {
-              "id": 5,
+              "id": 157,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "96:0:0"
+              "src": "96:0:12"
             },
-            "scope": 12,
-            "src": "75:56:0",
+            "scope": 164,
+            "src": "75:56:12",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 13,
-        "src": "26:107:0"
+        "scope": 165,
+        "src": "26:107:12"
       }
     ],
-    "src": "0:133:0"
+    "src": "0:133:12"
   },
-  "bytecode": "608060405234801561001057600080fd5b506040805180820190915260058082526468656c6c6f60d81b602090920191825261003d91600091610043565b506100d6565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061008457805160ff19168380011785556100b1565b828001600101855582156100b1579182015b828111156100b1578251825591602001919060010190610096565b506100bd9291506100c1565b5090565b5b808211156100bd57600081556001016100c2565b610171806100e56000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c8063ef690cc014610030575b600080fd5b6100386100ad565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561007257818101518382015260200161005a565b50505050905090810190601f16801561009f5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6000805460408051602060026001851615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156101335780601f1061010857610100808354040283529160200191610133565b820191906000526020600020905b81548152906001019060200180831161011657829003601f168201915b50505050508156fea264697066735822122011a442ca1c7213f502e6bae6ad386a8d70fa34abf17178f89a07fa921710f14864736f6c634300060c0033",
+  "bytecode": "608060405234801561001057600080fd5b506040805180820190915260058082526468656c6c6f60d81b602090920191825261003d91600091610043565b506100d6565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061008457805160ff19168380011785556100b1565b828001600101855582156100b1579182015b828111156100b1578251825591602001919060010190610096565b506100bd9291506100c1565b5090565b5b808211156100bd57600081556001016100c2565b610171806100e56000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c8063ef690cc014610030575b600080fd5b6100386100ad565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561007257818101518382015260200161005a565b50505050905090810190601f16801561009f5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6000805460408051602060026001851615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156101335780601f1061010857610100808354040283529160200191610133565b820191906000526020600020905b81548152906001019060200180831161011657829003601f168201915b50505050508156fea264697066735822122036075cf5d09c59e55f8d6834bb8e0af772cfbf4e9e21f70d8ac914284dd8ae3964736f6c634300060c0033",
   "bytecodeSha1": "67bf14824be6bf384128b540b3d00d5c08b8d47d",
   "compiler": {
     "evm_version": "istanbul",
@@ -192,15 +192,15 @@
   "contractName": "Hello",
   "coverageMap": {
     "branches": {
-      "0": {}
+      "12": {}
     },
     "statements": {
-      "0": {}
+      "12": {}
     }
   },
   "dependencies": [],
-  "deployedBytecode": "608060405234801561001057600080fd5b506004361061002b5760003560e01c8063ef690cc014610030575b600080fd5b6100386100ad565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561007257818101518382015260200161005a565b50505050905090810190601f16801561009f5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6000805460408051602060026001851615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156101335780601f1061010857610100808354040283529160200191610133565b820191906000526020600020905b81548152906001019060200180831161011657829003601f168201915b50505050508156fea264697066735822122011a442ca1c7213f502e6bae6ad386a8d70fa34abf17178f89a07fa921710f14864736f6c634300060c0033",
-  "deployedSourceMap": "26:107:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;47:22;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;47:22:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "deployedBytecode": "608060405234801561001057600080fd5b506004361061002b5760003560e01c8063ef690cc014610030575b600080fd5b6100386100ad565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561007257818101518382015260200161005a565b50505050905090810190601f16801561009f5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6000805460408051602060026001851615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156101335780601f1061010857610100808354040283529160200191610133565b820191906000526020600020905b81548152906001019060200180831161011657829003601f168201915b50505050508156fea264697066735822122036075cf5d09c59e55f8d6834bb8e0af772cfbf4e9e21f70d8ac914284dd8ae3964736f6c634300060c0033",
+  "deployedSourceMap": "26:107:12:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;47:22;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;47:22:12;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
   "language": "Solidity",
   "natspec": {
     "kind": "dev",
@@ -211,7 +211,7 @@
     26,
     133
   ],
-  "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH2 0x2B JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xEF690CC0 EQ PUSH2 0x30 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH2 0x38 PUSH2 0xAD JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD PUSH1 0x20 DUP1 DUP3 MSTORE DUP4 MLOAD DUP2 DUP4 ADD MSTORE DUP4 MLOAD SWAP2 SWAP3 DUP4 SWAP3 SWAP1 DUP4 ADD SWAP2 DUP6 ADD SWAP1 DUP1 DUP4 DUP4 PUSH1 0x0 JUMPDEST DUP4 DUP2 LT ISZERO PUSH2 0x72 JUMPI DUP2 DUP2 ADD MLOAD DUP4 DUP3 ADD MSTORE PUSH1 0x20 ADD PUSH2 0x5A JUMP JUMPDEST POP POP POP POP SWAP1 POP SWAP1 DUP2 ADD SWAP1 PUSH1 0x1F AND DUP1 ISZERO PUSH2 0x9F JUMPI DUP1 DUP3 SUB DUP1 MLOAD PUSH1 0x1 DUP4 PUSH1 0x20 SUB PUSH2 0x100 EXP SUB NOT AND DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP JUMPDEST POP SWAP3 POP POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x0 DUP1 SLOAD PUSH1 0x40 DUP1 MLOAD PUSH1 0x20 PUSH1 0x2 PUSH1 0x1 DUP6 AND ISZERO PUSH2 0x100 MUL PUSH1 0x0 NOT ADD SWAP1 SWAP5 AND SWAP4 SWAP1 SWAP4 DIV PUSH1 0x1F DUP2 ADD DUP5 SWAP1 DIV DUP5 MUL DUP3 ADD DUP5 ADD SWAP1 SWAP3 MSTORE DUP2 DUP2 MSTORE SWAP3 SWAP2 DUP4 ADD DUP3 DUP3 DUP1 ISZERO PUSH2 0x133 JUMPI DUP1 PUSH1 0x1F LT PUSH2 0x108 JUMPI PUSH2 0x100 DUP1 DUP4 SLOAD DIV MUL DUP4 MSTORE SWAP2 PUSH1 0x20 ADD SWAP2 PUSH2 0x133 JUMP JUMPDEST DUP3 ADD SWAP2 SWAP1 PUSH1 0x0 MSTORE PUSH1 0x20 PUSH1 0x0 KECCAK256 SWAP1 JUMPDEST DUP2 SLOAD DUP2 MSTORE SWAP1 PUSH1 0x1 ADD SWAP1 PUSH1 0x20 ADD DUP1 DUP4 GT PUSH2 0x116 JUMPI DUP3 SWAP1 SUB PUSH1 0x1F AND DUP3 ADD SWAP2 JUMPDEST POP POP POP POP POP DUP2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 GT LOG4 TIMESTAMP 0xCA SHR PUSH19 0x13F502E6BAE6AD386A8D70FA34ABF17178F89A SMOD STATICCALL SWAP3 OR LT CALL 0x48 PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER ",
+  "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH2 0x2B JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xEF690CC0 EQ PUSH2 0x30 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH2 0x38 PUSH2 0xAD JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD PUSH1 0x20 DUP1 DUP3 MSTORE DUP4 MLOAD DUP2 DUP4 ADD MSTORE DUP4 MLOAD SWAP2 SWAP3 DUP4 SWAP3 SWAP1 DUP4 ADD SWAP2 DUP6 ADD SWAP1 DUP1 DUP4 DUP4 PUSH1 0x0 JUMPDEST DUP4 DUP2 LT ISZERO PUSH2 0x72 JUMPI DUP2 DUP2 ADD MLOAD DUP4 DUP3 ADD MSTORE PUSH1 0x20 ADD PUSH2 0x5A JUMP JUMPDEST POP POP POP POP SWAP1 POP SWAP1 DUP2 ADD SWAP1 PUSH1 0x1F AND DUP1 ISZERO PUSH2 0x9F JUMPI DUP1 DUP3 SUB DUP1 MLOAD PUSH1 0x1 DUP4 PUSH1 0x20 SUB PUSH2 0x100 EXP SUB NOT AND DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP JUMPDEST POP SWAP3 POP POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x0 DUP1 SLOAD PUSH1 0x40 DUP1 MLOAD PUSH1 0x20 PUSH1 0x2 PUSH1 0x1 DUP6 AND ISZERO PUSH2 0x100 MUL PUSH1 0x0 NOT ADD SWAP1 SWAP5 AND SWAP4 SWAP1 SWAP4 DIV PUSH1 0x1F DUP2 ADD DUP5 SWAP1 DIV DUP5 MUL DUP3 ADD DUP5 ADD SWAP1 SWAP3 MSTORE DUP2 DUP2 MSTORE SWAP3 SWAP2 DUP4 ADD DUP3 DUP3 DUP1 ISZERO PUSH2 0x133 JUMPI DUP1 PUSH1 0x1F LT PUSH2 0x108 JUMPI PUSH2 0x100 DUP1 DUP4 SLOAD DIV MUL DUP4 MSTORE SWAP2 PUSH1 0x20 ADD SWAP2 PUSH2 0x133 JUMP JUMPDEST DUP3 ADD SWAP2 SWAP1 PUSH1 0x0 MSTORE PUSH1 0x20 PUSH1 0x0 KECCAK256 SWAP1 JUMPDEST DUP2 SLOAD DUP2 MSTORE SWAP1 PUSH1 0x1 ADD SWAP1 PUSH1 0x20 ADD DUP1 DUP4 GT PUSH2 0x116 JUMPI DUP3 SWAP1 SUB PUSH1 0x1F AND DUP3 ADD SWAP2 JUMPDEST POP POP POP POP POP DUP2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CALLDATASIZE SMOD 0x5C CREATE2 0xD0 SWAP13 MSIZE 0xE5 0x5F DUP14 PUSH9 0x34BB8E0AF772CFBF4E SWAP15 0x21 0xF7 0xD DUP11 0xC9 EQ 0x28 0x4D 0xD8 0xAE CODECOPY PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER ",
   "pcMap": {
     "0": {
       "offset": [
@@ -219,7 +219,7 @@
         133
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x80"
     },
     "2": {
@@ -229,7 +229,7 @@
         133
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x40"
     },
     "4": {
@@ -239,7 +239,7 @@
         133
       ],
       "op": "MSTORE",
-      "path": "0"
+      "path": "12"
     },
     "5": {
       "fn": null,
@@ -248,7 +248,7 @@
         133
       ],
       "op": "CALLVALUE",
-      "path": "0"
+      "path": "12"
     },
     "6": {
       "fn": null,
@@ -257,7 +257,7 @@
         133
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "7": {
       "fn": null,
@@ -266,7 +266,7 @@
         133
       ],
       "op": "ISZERO",
-      "path": "0"
+      "path": "12"
     },
     "8": {
       "fn": null,
@@ -275,7 +275,7 @@
         133
       ],
       "op": "PUSH2",
-      "path": "0",
+      "path": "12",
       "value": "0x10"
     },
     "11": {
@@ -285,7 +285,7 @@
         133
       ],
       "op": "JUMPI",
-      "path": "0"
+      "path": "12"
     },
     "12": {
       "fn": null,
@@ -294,7 +294,7 @@
         133
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x0"
     },
     "14": {
@@ -304,7 +304,7 @@
         133
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "15": {
       "dev": "Cannot send ether to nonpayable function",
@@ -314,7 +314,7 @@
         133
       ],
       "op": "REVERT",
-      "path": "0"
+      "path": "12"
     },
     "16": {
       "fn": null,
@@ -323,7 +323,7 @@
         133
       ],
       "op": "JUMPDEST",
-      "path": "0"
+      "path": "12"
     },
     "17": {
       "fn": null,
@@ -332,7 +332,7 @@
         133
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "18": {
       "fn": null,
@@ -341,7 +341,7 @@
         133
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x4"
     },
     "20": {
@@ -351,7 +351,7 @@
         133
       ],
       "op": "CALLDATASIZE",
-      "path": "0"
+      "path": "12"
     },
     "21": {
       "fn": null,
@@ -360,7 +360,7 @@
         133
       ],
       "op": "LT",
-      "path": "0"
+      "path": "12"
     },
     "22": {
       "fn": null,
@@ -369,7 +369,7 @@
         133
       ],
       "op": "PUSH2",
-      "path": "0",
+      "path": "12",
       "value": "0x2B"
     },
     "25": {
@@ -379,7 +379,7 @@
         133
       ],
       "op": "JUMPI",
-      "path": "0"
+      "path": "12"
     },
     "26": {
       "fn": null,
@@ -388,7 +388,7 @@
         133
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x0"
     },
     "28": {
@@ -398,7 +398,7 @@
         133
       ],
       "op": "CALLDATALOAD",
-      "path": "0"
+      "path": "12"
     },
     "29": {
       "fn": null,
@@ -407,7 +407,7 @@
         133
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0xE0"
     },
     "31": {
@@ -417,7 +417,7 @@
         133
       ],
       "op": "SHR",
-      "path": "0"
+      "path": "12"
     },
     "32": {
       "fn": null,
@@ -426,7 +426,7 @@
         133
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "33": {
       "fn": null,
@@ -435,7 +435,7 @@
         133
       ],
       "op": "PUSH4",
-      "path": "0",
+      "path": "12",
       "value": "0xEF690CC0"
     },
     "38": {
@@ -445,7 +445,7 @@
         133
       ],
       "op": "EQ",
-      "path": "0"
+      "path": "12"
     },
     "39": {
       "fn": null,
@@ -454,7 +454,7 @@
         133
       ],
       "op": "PUSH2",
-      "path": "0",
+      "path": "12",
       "value": "0x30"
     },
     "42": {
@@ -464,7 +464,7 @@
         133
       ],
       "op": "JUMPI",
-      "path": "0"
+      "path": "12"
     },
     "43": {
       "fn": null,
@@ -473,7 +473,7 @@
         133
       ],
       "op": "JUMPDEST",
-      "path": "0"
+      "path": "12"
     },
     "44": {
       "fn": null,
@@ -482,7 +482,7 @@
         133
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x0"
     },
     "46": {
@@ -492,7 +492,7 @@
         133
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "47": {
       "first_revert": true,
@@ -502,7 +502,7 @@
         133
       ],
       "op": "REVERT",
-      "path": "0"
+      "path": "12"
     },
     "48": {
       "offset": [
@@ -510,7 +510,7 @@
         69
       ],
       "op": "JUMPDEST",
-      "path": "0"
+      "path": "12"
     },
     "49": {
       "fn": null,
@@ -519,7 +519,7 @@
         69
       ],
       "op": "PUSH2",
-      "path": "0",
+      "path": "12",
       "value": "0x38"
     },
     "52": {
@@ -529,7 +529,7 @@
         69
       ],
       "op": "PUSH2",
-      "path": "0",
+      "path": "12",
       "value": "0xAD"
     },
     "55": {
@@ -540,7 +540,7 @@
         69
       ],
       "op": "JUMP",
-      "path": "0"
+      "path": "12"
     },
     "56": {
       "fn": null,
@@ -549,7 +549,7 @@
         69
       ],
       "op": "JUMPDEST",
-      "path": "0"
+      "path": "12"
     },
     "57": {
       "fn": null,
@@ -558,7 +558,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x40"
     },
     "59": {
@@ -568,7 +568,7 @@
         69
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "60": {
       "fn": null,
@@ -577,7 +577,7 @@
         69
       ],
       "op": "MLOAD",
-      "path": "0"
+      "path": "12"
     },
     "61": {
       "fn": null,
@@ -586,7 +586,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x20"
     },
     "63": {
@@ -596,7 +596,7 @@
         69
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "64": {
       "fn": null,
@@ -605,7 +605,7 @@
         69
       ],
       "op": "DUP3",
-      "path": "0"
+      "path": "12"
     },
     "65": {
       "fn": null,
@@ -614,7 +614,7 @@
         69
       ],
       "op": "MSTORE",
-      "path": "0"
+      "path": "12"
     },
     "66": {
       "fn": null,
@@ -623,7 +623,7 @@
         69
       ],
       "op": "DUP4",
-      "path": "0"
+      "path": "12"
     },
     "67": {
       "fn": null,
@@ -632,7 +632,7 @@
         69
       ],
       "op": "MLOAD",
-      "path": "0"
+      "path": "12"
     },
     "68": {
       "fn": null,
@@ -641,7 +641,7 @@
         69
       ],
       "op": "DUP2",
-      "path": "0"
+      "path": "12"
     },
     "69": {
       "fn": null,
@@ -650,7 +650,7 @@
         69
       ],
       "op": "DUP4",
-      "path": "0"
+      "path": "12"
     },
     "70": {
       "fn": null,
@@ -659,7 +659,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "71": {
       "fn": null,
@@ -668,7 +668,7 @@
         69
       ],
       "op": "MSTORE",
-      "path": "0"
+      "path": "12"
     },
     "72": {
       "fn": null,
@@ -677,7 +677,7 @@
         69
       ],
       "op": "DUP4",
-      "path": "0"
+      "path": "12"
     },
     "73": {
       "fn": null,
@@ -686,7 +686,7 @@
         69
       ],
       "op": "MLOAD",
-      "path": "0"
+      "path": "12"
     },
     "74": {
       "fn": null,
@@ -695,7 +695,7 @@
         69
       ],
       "op": "SWAP2",
-      "path": "0"
+      "path": "12"
     },
     "75": {
       "fn": null,
@@ -704,7 +704,7 @@
         69
       ],
       "op": "SWAP3",
-      "path": "0"
+      "path": "12"
     },
     "76": {
       "fn": null,
@@ -713,7 +713,7 @@
         69
       ],
       "op": "DUP4",
-      "path": "0"
+      "path": "12"
     },
     "77": {
       "fn": null,
@@ -722,7 +722,7 @@
         69
       ],
       "op": "SWAP3",
-      "path": "0"
+      "path": "12"
     },
     "78": {
       "fn": null,
@@ -731,7 +731,7 @@
         69
       ],
       "op": "SWAP1",
-      "path": "0"
+      "path": "12"
     },
     "79": {
       "fn": null,
@@ -740,7 +740,7 @@
         69
       ],
       "op": "DUP4",
-      "path": "0"
+      "path": "12"
     },
     "80": {
       "fn": null,
@@ -749,7 +749,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "81": {
       "fn": null,
@@ -758,7 +758,7 @@
         69
       ],
       "op": "SWAP2",
-      "path": "0"
+      "path": "12"
     },
     "82": {
       "fn": null,
@@ -767,7 +767,7 @@
         69
       ],
       "op": "DUP6",
-      "path": "0"
+      "path": "12"
     },
     "83": {
       "fn": null,
@@ -776,7 +776,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "84": {
       "fn": null,
@@ -785,7 +785,7 @@
         69
       ],
       "op": "SWAP1",
-      "path": "0"
+      "path": "12"
     },
     "85": {
       "fn": null,
@@ -794,7 +794,7 @@
         69
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "86": {
       "fn": null,
@@ -803,7 +803,7 @@
         69
       ],
       "op": "DUP4",
-      "path": "0"
+      "path": "12"
     },
     "87": {
       "fn": null,
@@ -812,7 +812,7 @@
         69
       ],
       "op": "DUP4",
-      "path": "0"
+      "path": "12"
     },
     "88": {
       "fn": null,
@@ -821,7 +821,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x0"
     },
     "90": {
@@ -831,7 +831,7 @@
         69
       ],
       "op": "JUMPDEST",
-      "path": "0"
+      "path": "12"
     },
     "91": {
       "fn": null,
@@ -840,7 +840,7 @@
         69
       ],
       "op": "DUP4",
-      "path": "0"
+      "path": "12"
     },
     "92": {
       "fn": null,
@@ -849,7 +849,7 @@
         69
       ],
       "op": "DUP2",
-      "path": "0"
+      "path": "12"
     },
     "93": {
       "fn": null,
@@ -858,7 +858,7 @@
         69
       ],
       "op": "LT",
-      "path": "0"
+      "path": "12"
     },
     "94": {
       "fn": null,
@@ -867,7 +867,7 @@
         69
       ],
       "op": "ISZERO",
-      "path": "0"
+      "path": "12"
     },
     "95": {
       "fn": null,
@@ -876,7 +876,7 @@
         69
       ],
       "op": "PUSH2",
-      "path": "0",
+      "path": "12",
       "value": "0x72"
     },
     "98": {
@@ -886,7 +886,7 @@
         69
       ],
       "op": "JUMPI",
-      "path": "0"
+      "path": "12"
     },
     "99": {
       "fn": null,
@@ -895,7 +895,7 @@
         69
       ],
       "op": "DUP2",
-      "path": "0"
+      "path": "12"
     },
     "100": {
       "fn": null,
@@ -904,7 +904,7 @@
         69
       ],
       "op": "DUP2",
-      "path": "0"
+      "path": "12"
     },
     "101": {
       "fn": null,
@@ -913,7 +913,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "102": {
       "fn": null,
@@ -922,7 +922,7 @@
         69
       ],
       "op": "MLOAD",
-      "path": "0"
+      "path": "12"
     },
     "103": {
       "fn": null,
@@ -931,7 +931,7 @@
         69
       ],
       "op": "DUP4",
-      "path": "0"
+      "path": "12"
     },
     "104": {
       "fn": null,
@@ -940,7 +940,7 @@
         69
       ],
       "op": "DUP3",
-      "path": "0"
+      "path": "12"
     },
     "105": {
       "fn": null,
@@ -949,7 +949,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "106": {
       "fn": null,
@@ -958,7 +958,7 @@
         69
       ],
       "op": "MSTORE",
-      "path": "0"
+      "path": "12"
     },
     "107": {
       "fn": null,
@@ -967,7 +967,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x20"
     },
     "109": {
@@ -977,7 +977,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "110": {
       "fn": null,
@@ -986,7 +986,7 @@
         69
       ],
       "op": "PUSH2",
-      "path": "0",
+      "path": "12",
       "value": "0x5A"
     },
     "113": {
@@ -996,7 +996,7 @@
         69
       ],
       "op": "JUMP",
-      "path": "0"
+      "path": "12"
     },
     "114": {
       "fn": null,
@@ -1005,7 +1005,7 @@
         69
       ],
       "op": "JUMPDEST",
-      "path": "0"
+      "path": "12"
     },
     "115": {
       "fn": null,
@@ -1014,7 +1014,7 @@
         69
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "116": {
       "fn": null,
@@ -1023,7 +1023,7 @@
         69
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "117": {
       "fn": null,
@@ -1032,7 +1032,7 @@
         69
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "118": {
       "fn": null,
@@ -1041,7 +1041,7 @@
         69
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "119": {
       "fn": null,
@@ -1050,7 +1050,7 @@
         69
       ],
       "op": "SWAP1",
-      "path": "0"
+      "path": "12"
     },
     "120": {
       "fn": null,
@@ -1059,7 +1059,7 @@
         69
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "121": {
       "fn": null,
@@ -1068,7 +1068,7 @@
         69
       ],
       "op": "SWAP1",
-      "path": "0"
+      "path": "12"
     },
     "122": {
       "fn": null,
@@ -1077,7 +1077,7 @@
         69
       ],
       "op": "DUP2",
-      "path": "0"
+      "path": "12"
     },
     "123": {
       "fn": null,
@@ -1086,7 +1086,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "124": {
       "fn": null,
@@ -1095,7 +1095,7 @@
         69
       ],
       "op": "SWAP1",
-      "path": "0"
+      "path": "12"
     },
     "125": {
       "fn": null,
@@ -1104,7 +1104,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x1F"
     },
     "127": {
@@ -1114,7 +1114,7 @@
         69
       ],
       "op": "AND",
-      "path": "0"
+      "path": "12"
     },
     "128": {
       "fn": null,
@@ -1123,7 +1123,7 @@
         69
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "129": {
       "fn": null,
@@ -1132,7 +1132,7 @@
         69
       ],
       "op": "ISZERO",
-      "path": "0"
+      "path": "12"
     },
     "130": {
       "fn": null,
@@ -1141,7 +1141,7 @@
         69
       ],
       "op": "PUSH2",
-      "path": "0",
+      "path": "12",
       "value": "0x9F"
     },
     "133": {
@@ -1151,7 +1151,7 @@
         69
       ],
       "op": "JUMPI",
-      "path": "0"
+      "path": "12"
     },
     "134": {
       "fn": null,
@@ -1160,7 +1160,7 @@
         69
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "135": {
       "fn": null,
@@ -1169,7 +1169,7 @@
         69
       ],
       "op": "DUP3",
-      "path": "0"
+      "path": "12"
     },
     "136": {
       "fn": null,
@@ -1178,7 +1178,7 @@
         69
       ],
       "op": "SUB",
-      "path": "0"
+      "path": "12"
     },
     "137": {
       "fn": null,
@@ -1187,7 +1187,7 @@
         69
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "138": {
       "fn": null,
@@ -1196,7 +1196,7 @@
         69
       ],
       "op": "MLOAD",
-      "path": "0"
+      "path": "12"
     },
     "139": {
       "fn": null,
@@ -1205,7 +1205,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x1"
     },
     "141": {
@@ -1215,7 +1215,7 @@
         69
       ],
       "op": "DUP4",
-      "path": "0"
+      "path": "12"
     },
     "142": {
       "fn": null,
@@ -1224,7 +1224,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x20"
     },
     "144": {
@@ -1234,7 +1234,7 @@
         69
       ],
       "op": "SUB",
-      "path": "0"
+      "path": "12"
     },
     "145": {
       "fn": null,
@@ -1243,7 +1243,7 @@
         69
       ],
       "op": "PUSH2",
-      "path": "0",
+      "path": "12",
       "value": "0x100"
     },
     "148": {
@@ -1253,7 +1253,7 @@
         69
       ],
       "op": "EXP",
-      "path": "0"
+      "path": "12"
     },
     "149": {
       "fn": null,
@@ -1262,7 +1262,7 @@
         69
       ],
       "op": "SUB",
-      "path": "0"
+      "path": "12"
     },
     "150": {
       "fn": null,
@@ -1271,7 +1271,7 @@
         69
       ],
       "op": "NOT",
-      "path": "0"
+      "path": "12"
     },
     "151": {
       "fn": null,
@@ -1280,7 +1280,7 @@
         69
       ],
       "op": "AND",
-      "path": "0"
+      "path": "12"
     },
     "152": {
       "fn": null,
@@ -1289,7 +1289,7 @@
         69
       ],
       "op": "DUP2",
-      "path": "0"
+      "path": "12"
     },
     "153": {
       "fn": null,
@@ -1298,7 +1298,7 @@
         69
       ],
       "op": "MSTORE",
-      "path": "0"
+      "path": "12"
     },
     "154": {
       "fn": null,
@@ -1307,7 +1307,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x20"
     },
     "156": {
@@ -1317,7 +1317,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "157": {
       "fn": null,
@@ -1326,7 +1326,7 @@
         69
       ],
       "op": "SWAP2",
-      "path": "0"
+      "path": "12"
     },
     "158": {
       "fn": null,
@@ -1335,7 +1335,7 @@
         69
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "159": {
       "fn": null,
@@ -1344,7 +1344,7 @@
         69
       ],
       "op": "JUMPDEST",
-      "path": "0"
+      "path": "12"
     },
     "160": {
       "fn": null,
@@ -1353,7 +1353,7 @@
         69
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "161": {
       "fn": null,
@@ -1362,7 +1362,7 @@
         69
       ],
       "op": "SWAP3",
-      "path": "0"
+      "path": "12"
     },
     "162": {
       "fn": null,
@@ -1371,7 +1371,7 @@
         69
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "163": {
       "fn": null,
@@ -1380,7 +1380,7 @@
         69
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "164": {
       "fn": null,
@@ -1389,7 +1389,7 @@
         69
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "165": {
       "fn": null,
@@ -1398,7 +1398,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x40"
     },
     "167": {
@@ -1408,7 +1408,7 @@
         69
       ],
       "op": "MLOAD",
-      "path": "0"
+      "path": "12"
     },
     "168": {
       "fn": null,
@@ -1417,7 +1417,7 @@
         69
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "169": {
       "fn": null,
@@ -1426,7 +1426,7 @@
         69
       ],
       "op": "SWAP2",
-      "path": "0"
+      "path": "12"
     },
     "170": {
       "fn": null,
@@ -1435,7 +1435,7 @@
         69
       ],
       "op": "SUB",
-      "path": "0"
+      "path": "12"
     },
     "171": {
       "fn": null,
@@ -1444,7 +1444,7 @@
         69
       ],
       "op": "SWAP1",
-      "path": "0"
+      "path": "12"
     },
     "172": {
       "fn": null,
@@ -1453,7 +1453,7 @@
         69
       ],
       "op": "RETURN",
-      "path": "0"
+      "path": "12"
     },
     "173": {
       "fn": null,
@@ -1462,7 +1462,7 @@
         69
       ],
       "op": "JUMPDEST",
-      "path": "0"
+      "path": "12"
     },
     "174": {
       "fn": null,
@@ -1471,7 +1471,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x0"
     },
     "176": {
@@ -1481,7 +1481,7 @@
         69
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "177": {
       "fn": null,
@@ -1490,7 +1490,7 @@
         69
       ],
       "op": "SLOAD",
-      "path": "0"
+      "path": "12"
     },
     "178": {
       "fn": null,
@@ -1499,7 +1499,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x40"
     },
     "180": {
@@ -1509,7 +1509,7 @@
         69
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "181": {
       "fn": null,
@@ -1518,7 +1518,7 @@
         69
       ],
       "op": "MLOAD",
-      "path": "0"
+      "path": "12"
     },
     "182": {
       "fn": null,
@@ -1527,7 +1527,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x20"
     },
     "184": {
@@ -1537,7 +1537,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x2"
     },
     "186": {
@@ -1547,7 +1547,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x1"
     },
     "188": {
@@ -1557,7 +1557,7 @@
         69
       ],
       "op": "DUP6",
-      "path": "0"
+      "path": "12"
     },
     "189": {
       "fn": null,
@@ -1566,7 +1566,7 @@
         69
       ],
       "op": "AND",
-      "path": "0"
+      "path": "12"
     },
     "190": {
       "fn": null,
@@ -1575,7 +1575,7 @@
         69
       ],
       "op": "ISZERO",
-      "path": "0"
+      "path": "12"
     },
     "191": {
       "fn": null,
@@ -1584,7 +1584,7 @@
         69
       ],
       "op": "PUSH2",
-      "path": "0",
+      "path": "12",
       "value": "0x100"
     },
     "194": {
@@ -1594,7 +1594,7 @@
         69
       ],
       "op": "MUL",
-      "path": "0"
+      "path": "12"
     },
     "195": {
       "op": "PUSH1",
@@ -1609,7 +1609,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "199": {
       "fn": null,
@@ -1618,7 +1618,7 @@
         69
       ],
       "op": "SWAP1",
-      "path": "0"
+      "path": "12"
     },
     "200": {
       "fn": null,
@@ -1627,7 +1627,7 @@
         69
       ],
       "op": "SWAP5",
-      "path": "0"
+      "path": "12"
     },
     "201": {
       "fn": null,
@@ -1636,7 +1636,7 @@
         69
       ],
       "op": "AND",
-      "path": "0"
+      "path": "12"
     },
     "202": {
       "fn": null,
@@ -1645,7 +1645,7 @@
         69
       ],
       "op": "SWAP4",
-      "path": "0"
+      "path": "12"
     },
     "203": {
       "fn": null,
@@ -1654,7 +1654,7 @@
         69
       ],
       "op": "SWAP1",
-      "path": "0"
+      "path": "12"
     },
     "204": {
       "fn": null,
@@ -1663,7 +1663,7 @@
         69
       ],
       "op": "SWAP4",
-      "path": "0"
+      "path": "12"
     },
     "205": {
       "fn": null,
@@ -1672,7 +1672,7 @@
         69
       ],
       "op": "DIV",
-      "path": "0"
+      "path": "12"
     },
     "206": {
       "fn": null,
@@ -1681,7 +1681,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x1F"
     },
     "208": {
@@ -1691,7 +1691,7 @@
         69
       ],
       "op": "DUP2",
-      "path": "0"
+      "path": "12"
     },
     "209": {
       "fn": null,
@@ -1700,7 +1700,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "210": {
       "fn": null,
@@ -1709,7 +1709,7 @@
         69
       ],
       "op": "DUP5",
-      "path": "0"
+      "path": "12"
     },
     "211": {
       "fn": null,
@@ -1718,7 +1718,7 @@
         69
       ],
       "op": "SWAP1",
-      "path": "0"
+      "path": "12"
     },
     "212": {
       "fn": null,
@@ -1727,7 +1727,7 @@
         69
       ],
       "op": "DIV",
-      "path": "0"
+      "path": "12"
     },
     "213": {
       "fn": null,
@@ -1736,7 +1736,7 @@
         69
       ],
       "op": "DUP5",
-      "path": "0"
+      "path": "12"
     },
     "214": {
       "fn": null,
@@ -1745,7 +1745,7 @@
         69
       ],
       "op": "MUL",
-      "path": "0"
+      "path": "12"
     },
     "215": {
       "fn": null,
@@ -1754,7 +1754,7 @@
         69
       ],
       "op": "DUP3",
-      "path": "0"
+      "path": "12"
     },
     "216": {
       "fn": null,
@@ -1763,7 +1763,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "217": {
       "fn": null,
@@ -1772,7 +1772,7 @@
         69
       ],
       "op": "DUP5",
-      "path": "0"
+      "path": "12"
     },
     "218": {
       "fn": null,
@@ -1781,7 +1781,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "219": {
       "fn": null,
@@ -1790,7 +1790,7 @@
         69
       ],
       "op": "SWAP1",
-      "path": "0"
+      "path": "12"
     },
     "220": {
       "fn": null,
@@ -1799,7 +1799,7 @@
         69
       ],
       "op": "SWAP3",
-      "path": "0"
+      "path": "12"
     },
     "221": {
       "fn": null,
@@ -1808,7 +1808,7 @@
         69
       ],
       "op": "MSTORE",
-      "path": "0"
+      "path": "12"
     },
     "222": {
       "fn": null,
@@ -1817,7 +1817,7 @@
         69
       ],
       "op": "DUP2",
-      "path": "0"
+      "path": "12"
     },
     "223": {
       "fn": null,
@@ -1826,7 +1826,7 @@
         69
       ],
       "op": "DUP2",
-      "path": "0"
+      "path": "12"
     },
     "224": {
       "fn": null,
@@ -1835,7 +1835,7 @@
         69
       ],
       "op": "MSTORE",
-      "path": "0"
+      "path": "12"
     },
     "225": {
       "fn": null,
@@ -1844,7 +1844,7 @@
         69
       ],
       "op": "SWAP3",
-      "path": "0"
+      "path": "12"
     },
     "226": {
       "fn": null,
@@ -1853,7 +1853,7 @@
         69
       ],
       "op": "SWAP2",
-      "path": "0"
+      "path": "12"
     },
     "227": {
       "fn": null,
@@ -1862,7 +1862,7 @@
         69
       ],
       "op": "DUP4",
-      "path": "0"
+      "path": "12"
     },
     "228": {
       "fn": null,
@@ -1871,7 +1871,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "229": {
       "fn": null,
@@ -1880,7 +1880,7 @@
         69
       ],
       "op": "DUP3",
-      "path": "0"
+      "path": "12"
     },
     "230": {
       "fn": null,
@@ -1889,7 +1889,7 @@
         69
       ],
       "op": "DUP3",
-      "path": "0"
+      "path": "12"
     },
     "231": {
       "fn": null,
@@ -1898,7 +1898,7 @@
         69
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "232": {
       "fn": null,
@@ -1907,7 +1907,7 @@
         69
       ],
       "op": "ISZERO",
-      "path": "0"
+      "path": "12"
     },
     "233": {
       "fn": null,
@@ -1916,7 +1916,7 @@
         69
       ],
       "op": "PUSH2",
-      "path": "0",
+      "path": "12",
       "value": "0x133"
     },
     "236": {
@@ -1926,7 +1926,7 @@
         69
       ],
       "op": "JUMPI",
-      "path": "0"
+      "path": "12"
     },
     "237": {
       "fn": null,
@@ -1935,7 +1935,7 @@
         69
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "238": {
       "fn": null,
@@ -1944,7 +1944,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x1F"
     },
     "240": {
@@ -1954,7 +1954,7 @@
         69
       ],
       "op": "LT",
-      "path": "0"
+      "path": "12"
     },
     "241": {
       "fn": null,
@@ -1963,7 +1963,7 @@
         69
       ],
       "op": "PUSH2",
-      "path": "0",
+      "path": "12",
       "value": "0x108"
     },
     "244": {
@@ -1973,7 +1973,7 @@
         69
       ],
       "op": "JUMPI",
-      "path": "0"
+      "path": "12"
     },
     "245": {
       "fn": null,
@@ -1982,7 +1982,7 @@
         69
       ],
       "op": "PUSH2",
-      "path": "0",
+      "path": "12",
       "value": "0x100"
     },
     "248": {
@@ -1992,7 +1992,7 @@
         69
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "249": {
       "fn": null,
@@ -2001,7 +2001,7 @@
         69
       ],
       "op": "DUP4",
-      "path": "0"
+      "path": "12"
     },
     "250": {
       "fn": null,
@@ -2010,7 +2010,7 @@
         69
       ],
       "op": "SLOAD",
-      "path": "0"
+      "path": "12"
     },
     "251": {
       "fn": null,
@@ -2019,7 +2019,7 @@
         69
       ],
       "op": "DIV",
-      "path": "0"
+      "path": "12"
     },
     "252": {
       "fn": null,
@@ -2028,7 +2028,7 @@
         69
       ],
       "op": "MUL",
-      "path": "0"
+      "path": "12"
     },
     "253": {
       "fn": null,
@@ -2037,7 +2037,7 @@
         69
       ],
       "op": "DUP4",
-      "path": "0"
+      "path": "12"
     },
     "254": {
       "fn": null,
@@ -2046,7 +2046,7 @@
         69
       ],
       "op": "MSTORE",
-      "path": "0"
+      "path": "12"
     },
     "255": {
       "fn": null,
@@ -2055,7 +2055,7 @@
         69
       ],
       "op": "SWAP2",
-      "path": "0"
+      "path": "12"
     },
     "256": {
       "fn": null,
@@ -2064,7 +2064,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x20"
     },
     "258": {
@@ -2074,7 +2074,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "259": {
       "fn": null,
@@ -2083,7 +2083,7 @@
         69
       ],
       "op": "SWAP2",
-      "path": "0"
+      "path": "12"
     },
     "260": {
       "fn": null,
@@ -2092,7 +2092,7 @@
         69
       ],
       "op": "PUSH2",
-      "path": "0",
+      "path": "12",
       "value": "0x133"
     },
     "263": {
@@ -2102,7 +2102,7 @@
         69
       ],
       "op": "JUMP",
-      "path": "0"
+      "path": "12"
     },
     "264": {
       "fn": null,
@@ -2111,7 +2111,7 @@
         69
       ],
       "op": "JUMPDEST",
-      "path": "0"
+      "path": "12"
     },
     "265": {
       "fn": null,
@@ -2120,7 +2120,7 @@
         69
       ],
       "op": "DUP3",
-      "path": "0"
+      "path": "12"
     },
     "266": {
       "fn": null,
@@ -2129,7 +2129,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "267": {
       "fn": null,
@@ -2138,7 +2138,7 @@
         69
       ],
       "op": "SWAP2",
-      "path": "0"
+      "path": "12"
     },
     "268": {
       "fn": null,
@@ -2147,7 +2147,7 @@
         69
       ],
       "op": "SWAP1",
-      "path": "0"
+      "path": "12"
     },
     "269": {
       "fn": null,
@@ -2156,7 +2156,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x0"
     },
     "271": {
@@ -2166,7 +2166,7 @@
         69
       ],
       "op": "MSTORE",
-      "path": "0"
+      "path": "12"
     },
     "272": {
       "fn": null,
@@ -2175,7 +2175,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x20"
     },
     "274": {
@@ -2185,7 +2185,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x0"
     },
     "276": {
@@ -2195,7 +2195,7 @@
         69
       ],
       "op": "KECCAK256",
-      "path": "0"
+      "path": "12"
     },
     "277": {
       "fn": null,
@@ -2204,7 +2204,7 @@
         69
       ],
       "op": "SWAP1",
-      "path": "0"
+      "path": "12"
     },
     "278": {
       "fn": null,
@@ -2213,7 +2213,7 @@
         69
       ],
       "op": "JUMPDEST",
-      "path": "0"
+      "path": "12"
     },
     "279": {
       "fn": null,
@@ -2222,7 +2222,7 @@
         69
       ],
       "op": "DUP2",
-      "path": "0"
+      "path": "12"
     },
     "280": {
       "fn": null,
@@ -2231,7 +2231,7 @@
         69
       ],
       "op": "SLOAD",
-      "path": "0"
+      "path": "12"
     },
     "281": {
       "fn": null,
@@ -2240,7 +2240,7 @@
         69
       ],
       "op": "DUP2",
-      "path": "0"
+      "path": "12"
     },
     "282": {
       "fn": null,
@@ -2249,7 +2249,7 @@
         69
       ],
       "op": "MSTORE",
-      "path": "0"
+      "path": "12"
     },
     "283": {
       "fn": null,
@@ -2258,7 +2258,7 @@
         69
       ],
       "op": "SWAP1",
-      "path": "0"
+      "path": "12"
     },
     "284": {
       "fn": null,
@@ -2267,7 +2267,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x1"
     },
     "286": {
@@ -2277,7 +2277,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "287": {
       "fn": null,
@@ -2286,7 +2286,7 @@
         69
       ],
       "op": "SWAP1",
-      "path": "0"
+      "path": "12"
     },
     "288": {
       "fn": null,
@@ -2295,7 +2295,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x20"
     },
     "290": {
@@ -2305,7 +2305,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "291": {
       "fn": null,
@@ -2314,7 +2314,7 @@
         69
       ],
       "op": "DUP1",
-      "path": "0"
+      "path": "12"
     },
     "292": {
       "fn": null,
@@ -2323,7 +2323,7 @@
         69
       ],
       "op": "DUP4",
-      "path": "0"
+      "path": "12"
     },
     "293": {
       "fn": null,
@@ -2332,7 +2332,7 @@
         69
       ],
       "op": "GT",
-      "path": "0"
+      "path": "12"
     },
     "294": {
       "fn": null,
@@ -2341,7 +2341,7 @@
         69
       ],
       "op": "PUSH2",
-      "path": "0",
+      "path": "12",
       "value": "0x116"
     },
     "297": {
@@ -2351,7 +2351,7 @@
         69
       ],
       "op": "JUMPI",
-      "path": "0"
+      "path": "12"
     },
     "298": {
       "fn": null,
@@ -2360,7 +2360,7 @@
         69
       ],
       "op": "DUP3",
-      "path": "0"
+      "path": "12"
     },
     "299": {
       "fn": null,
@@ -2369,7 +2369,7 @@
         69
       ],
       "op": "SWAP1",
-      "path": "0"
+      "path": "12"
     },
     "300": {
       "fn": null,
@@ -2378,7 +2378,7 @@
         69
       ],
       "op": "SUB",
-      "path": "0"
+      "path": "12"
     },
     "301": {
       "fn": null,
@@ -2387,7 +2387,7 @@
         69
       ],
       "op": "PUSH1",
-      "path": "0",
+      "path": "12",
       "value": "0x1F"
     },
     "303": {
@@ -2397,7 +2397,7 @@
         69
       ],
       "op": "AND",
-      "path": "0"
+      "path": "12"
     },
     "304": {
       "fn": null,
@@ -2406,7 +2406,7 @@
         69
       ],
       "op": "DUP3",
-      "path": "0"
+      "path": "12"
     },
     "305": {
       "fn": null,
@@ -2415,7 +2415,7 @@
         69
       ],
       "op": "ADD",
-      "path": "0"
+      "path": "12"
     },
     "306": {
       "fn": null,
@@ -2424,7 +2424,7 @@
         69
       ],
       "op": "SWAP2",
-      "path": "0"
+      "path": "12"
     },
     "307": {
       "fn": null,
@@ -2433,7 +2433,7 @@
         69
       ],
       "op": "JUMPDEST",
-      "path": "0"
+      "path": "12"
     },
     "308": {
       "fn": null,
@@ -2442,7 +2442,7 @@
         69
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "309": {
       "fn": null,
@@ -2451,7 +2451,7 @@
         69
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "310": {
       "fn": null,
@@ -2460,7 +2460,7 @@
         69
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "311": {
       "fn": null,
@@ -2469,7 +2469,7 @@
         69
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "312": {
       "fn": null,
@@ -2478,7 +2478,7 @@
         69
       ],
       "op": "POP",
-      "path": "0"
+      "path": "12"
     },
     "313": {
       "fn": null,
@@ -2487,7 +2487,7 @@
         69
       ],
       "op": "DUP2",
-      "path": "0"
+      "path": "12"
     },
     "314": {
       "fn": null,
@@ -2497,12 +2497,12 @@
         69
       ],
       "op": "JUMP",
-      "path": "0"
+      "path": "12"
     }
   },
   "sha1": "210379eb44e92b89e2f0bc18336724481947de04",
   "source": "pragma solidity ^0.6.12;\n\ncontract Hello {\n    string public greeting;\n    constructor() public {\n        greeting = \"hello\";\n    }\n}",
-  "sourceMap": "26:107:0:-:0;;;75:56;;;;;;;;;-1:-1:-1;106:18:0;;;;;;;;;;;;;-1:-1:-1;;;106:18:0;;;;;;;;;-1:-1:-1;;106:18:0;:::i;:::-;;26:107;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;26:107:0;;;-1:-1:-1;26:107:0;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;",
-  "sourcePath": "contracts/Hello.sol",
+  "sourceMap": "26:107:12:-:0;;;75:56;;;;;;;;;-1:-1:-1;106:18:12;;;;;;;;;;;;;-1:-1:-1;;;106:18:12;;;;;;;;;-1:-1:-1;;106:18:12;:::i;:::-;;26:107;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;26:107:12;;;-1:-1:-1;26:107:12;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;",
+  "sourcePath": "contracts/sample_contracts/Hello.sol",
   "type": "contract"
 }
